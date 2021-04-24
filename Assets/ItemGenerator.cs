@@ -22,6 +22,8 @@ public class ItemGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
         for (int i = startPos; i < goalPos; i+=15)
         {
             int num = Random.Range(1,11);
@@ -58,6 +60,6 @@ public class ItemGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
 }
